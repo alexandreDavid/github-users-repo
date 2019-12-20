@@ -1,7 +1,7 @@
 <template>
   <div class="nav-bar">
     <ul>
-      <li><button @click="back">Back</button></li>
+      <li><button class="back-button" @click="back">Back</button></li>
       <li><h2>{{title}}</h2></li>
     </ul>
   </div>
@@ -33,8 +33,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
